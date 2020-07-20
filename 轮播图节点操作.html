@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <div class="window"></div>
+    <script src="aniMath.js"></script>
+    <script src="wheel.js"></script>
+    <!-- <script src="../wheel copy.js"></script> -->
+
+    <script>
+        new wheel(".window", {
+            img: ["https://aecpm.alicdn.com/simba/img/TB1W4nPJFXXXXbSXpXXSutbFXXX.jpg", "https://aecpm.alicdn.com/simba/img/TB1_JXrLVXXXXbZXVXXSutbFXXX.jpg", "https://img.alicdn.com/tfs/TB1ftPuNLb2gK0jSZK9XXaEgFXa-1130-500.jpg_q100.jpg_.webp"],
+            imgColor: ["#c0c0c0", "#e8e8e8", "#f43c17"],
+            links: ["http://baidu.com", "http://baidu.com", "http://baidu.com"],
+            imgSize: [1130, 500],
+            btnColor: "#000",   //按钮颜色
+            btnActive: "red",
+            btnPos: ["center", "10"]  //按钮位置
+        }, {
+            time: 4,
+            eachtime: 1,
+            runStyle: "linear"
+        })
+    </script>
+</body>
+
+
+</html>
